@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tokplay-back-end/static/css/main.073c9b0a.css",
-    "main.js": "/tokplay-back-end/static/js/main.533b3741.js",
-    "static/js/787.0fe84981.chunk.js": "/tokplay-back-end/static/js/787.0fe84981.chunk.js",
-    "index.html": "/tokplay-back-end/index.html",
-    "main.073c9b0a.css.map": "/tokplay-back-end/static/css/main.073c9b0a.css.map",
-    "main.533b3741.js.map": "/tokplay-back-end/static/js/main.533b3741.js.map",
-    "787.0fe84981.chunk.js.map": "/tokplay-back-end/static/js/787.0fe84981.chunk.js.map"
+    "main.css": "/tokplay-front-end/static/css/main.073c9b0a.css",
+    "main.js": "/tokplay-front-end/static/js/main.88f1b9bf.js",
+    "static/js/787.0fe84981.chunk.js": "/tokplay-front-end/static/js/787.0fe84981.chunk.js",
+    "index.html": "/tokplay-front-end/index.html",
+    "main.073c9b0a.css.map": "/tokplay-front-end/static/css/main.073c9b0a.css.map",
+    "main.88f1b9bf.js.map": "/tokplay-front-end/static/js/main.88f1b9bf.js.map",
+    "787.0fe84981.chunk.js.map": "/tokplay-front-end/static/js/787.0fe84981.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.533b3741.js"
+    "static/js/main.88f1b9bf.js"
   ]
 }
