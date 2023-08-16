@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tokplay-front-end/static/css/main.073c9b0a.css",
-    "main.js": "/tokplay-front-end/static/js/main.88f1b9bf.js",
+    "main.js": "/tokplay-front-end/static/js/main.f5513f23.js",
     "static/js/787.0fe84981.chunk.js": "/tokplay-front-end/static/js/787.0fe84981.chunk.js",
     "index.html": "/tokplay-front-end/index.html",
     "main.073c9b0a.css.map": "/tokplay-front-end/static/css/main.073c9b0a.css.map",
-    "main.88f1b9bf.js.map": "/tokplay-front-end/static/js/main.88f1b9bf.js.map",
+    "main.f5513f23.js.map": "/tokplay-front-end/static/js/main.f5513f23.js.map",
     "787.0fe84981.chunk.js.map": "/tokplay-front-end/static/js/787.0fe84981.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.88f1b9bf.js"
+    "static/js/main.f5513f23.js"
   ]
 }
