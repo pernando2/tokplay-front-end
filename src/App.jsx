@@ -11,7 +11,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/tokplay-front-end/detail/:id/:youtubeId" element={<DetailPage />} />
+        <Route path="/detail/:id/:youtubeId" element={<DetailPage />} />
       </Routes>
     </HashRouter>
   );
