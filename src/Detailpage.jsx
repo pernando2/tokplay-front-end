@@ -17,10 +17,9 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import CardMedia from "@mui/material/CardMedia";
 import { styled } from "@mui/material/styles";
-import {  useParams, useNavigate  } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import useFetch from "./Hooks/useFetch.js";
 import CustomState from "./Hooks/State.js";
-
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -31,7 +30,6 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 export default function DetailPage() {
-  const navigate = useNavigate();
   // const [products, setProducts] = useState([]);
   const { id, youtubeId } = useParams(); // Ambil ID dari parameter URL
 
@@ -69,7 +67,7 @@ export default function DetailPage() {
           <OndemandVideoIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit">
             <Link
-              navigate="/"
+              href="/"
               underline="none"
               sx={{ color: "white", textDecoration: "none" }}
             >
@@ -238,7 +236,7 @@ export default function DetailPage() {
                       image={product.LinkImage}
                     />
                     <Link
-                      navigate={product.LinkProduct}
+                      href={product.LinkProduct}
                       underline="hover"
                       sx={{ color: "black", textDecoration: "none" }}
                     >

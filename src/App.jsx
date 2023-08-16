@@ -1,19 +1,20 @@
-import "./App.css";
-import { allVideos } from "./service.js";
-import { Routes, Route, HashRouter } from "react-router-dom";
-import Home from "./Home.jsx";
-import DetailPage from "./Detailpage.jsx";
+import './App.css';
+import { allVideos } from './service.js'
+import { Routes, Route, HashRouter  } from "react-router-dom";
+import Home from './Home.jsx';
+import DetailPage from './Detailpage.jsx'
 
 allVideos();
 
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/detail/:id/:youtubeId" element={<DetailPage />} />
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/detail/:id/:youtubeId" element={<DetailPage />} />
       </Routes>
-    </HashRouter>
+      </HashRouter>
   );
 }
 
