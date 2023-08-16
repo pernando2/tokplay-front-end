@@ -1,8 +1,9 @@
 # Getting Started with Create React App
+## Nann Play
+This project is the final project for Generasi Gigih 3.0 Program by GoTo Impact Foundation.
+this project is clone of the tokopedia play website. this project created By Pernando GG3FSGP0467
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# Features
 
 In the project directory, you can run:
 
